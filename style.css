@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat',sans-serif;
+}
+
+body{
+ background-color: #000;
+}
+
+.container{
+	background-color: #3A3B3C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+.container h1{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	
+}
+
+.container h1 span{
+	color: #ff1919;
+}
+
+.container h1::after{
+	content: '';
+	background: #ff1919;
+	width: 200px;
+	height: 3px;
+	position: absolute;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	left: 44%;
+	
+
+}
+
+.paragraph{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.content-box{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1500px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-inline: 20px;
+}
+
+.card{
+	min-height: 20px;
+	width: 320px;
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	background: #242526;
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+	margin-bottom: 60px;
+}
+
+.card .text{
+	color: grey;
+	line-height: 1.5;
+	align-items: center;
+
+}
+
+.card .card-heading{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card h4{
+	color: white;
+	margin-top: 20px;
+}
+
+.card i{
+	margin: 10px;
+	color: #ff1919;
+	
+}
+
+.card:hover{
+
+}
+.card:hover i{
+	color: #fff;
+}
+.card: hover p{
+       color: #fff;
+}
+
+.card:hover h3{
+	font-weight: 600;
+	color: #f2f2f2;
+}
+
+.card:hover{ 
+                    background: linear-gradient(45deg,
+	                          
+	                            rgba(255, 28, 8, 0.8) 0%,
+	                            rgba(255, 0, 82, 0.8) 100%),
+	                            url('');
+	                background-size: cover;
+	                                                 
+ }                      
+
+
